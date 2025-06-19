@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">FitLife Gym</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#classes">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trainers">Trainers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to FitLife Gym</h1>
+            <p>Transform Your Body, Transform Your Life</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Join Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Us</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <div class="about-image position-relative">
+                        <img src="https://via.placeholder.com/600x400" alt="Gym Interior" class="img-fluid rounded main-image">
+                        <img src="https://via.placeholder.com/300x200" alt="Training Session" class="img-fluid rounded floating-image">
+                        <div class="experience-badge">
+                            <span class="years">15+</span>
+                            <span class="text">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="mb-4">Your Fitness Journey Starts Here</h3>
+                        <p class="lead mb-4">At FitLife Gym, we're dedicated to helping you achieve your fitness goals. Our state-of-the-art facility and expert trainers are here to support you every step of the way.</p>
+                        <div class="row stats-counter mb-4">
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="counter-item">
+                                    <span class="counter-number">5000+</span>
+                                    <span class="counter-text">Happy Members</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="counter-item">
+                                    <span class="counter-number">20+</span>
+                                    <span class="counter-text">Expert Trainers</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="counter-item">
+                                    <span class="counter-number">50+</span>
+                                    <span class="counter-text">Classes Weekly</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="counter-item">
+                                    <span class="counter-number">1000+</span>
+                                    <span class="counter-text">Success Stories</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="mb-3">Why Choose Us?</h4>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-dumbbell"></i>
+                                <h5>Modern Equipment</h5>
+                                <p>State-of-the-art fitness equipment for optimal results</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-friends"></i>
+                                <h5>Expert Trainers</h5>
+                                <p>Certified professionals to guide your fitness journey</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-clock"></i>
+                                <h5>Flexible Schedule</h5>
+                                <p>Wide range of class times to fit your lifestyle</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-sparkles"></i>
+                                <h5>Clean Environment</h5>
+                                <p>Regularly sanitized facilities for your safety</p>
+                            </div>
+                        </div>
+                        <div class="cta-buttons mt-4">
+                            <a href="#contact" class="btn btn-primary me-3">Join Now</a>
+                            <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#virtualTourModal">
+                                <i class="fas fa-play-circle me-2"></i>Virtual Tour
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission & Values -->
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h4>Our Mission</h4>
+                        <p>To inspire and empower individuals to achieve their fitness goals through expert guidance, innovative programs, and a supportive community.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h4>Our Vision</h4>
+                        <p>To be the leading fitness destination that transforms lives through health, wellness, and positive lifestyle changes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Our Values</h4>
+                        <p>Integrity, Excellence, Community, Innovation, and Dedication to our members' success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tour Modal -->
+    <div class="modal fade" id="virtualTourModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Virtual Tour</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/your-video-id" title="Virtual Tour" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Classes Section -->
+    <section id="classes" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Classes</h2>
+            <div class="classes-filter mb-4">
+                <button class="btn btn-outline-primary active" data-filter="all">All Classes</button>
+                <button class="btn btn-outline-primary" data-filter="cardio">Cardio</button>
+                <button class="btn btn-outline-primary" data-filter="strength">Strength</button>
+                <button class="btn btn-outline-primary" data-filter="flexibility">Flexibility</button>
+                <button class="btn btn-outline-primary" data-filter="mind-body">Mind & Body</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-category="flexibility mind-body">
+                    <div class="class-card">
+                        <div class="class-image">
+                            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Yoga">
+                            <div class="class-overlay">
+                                <span class="class-level">All Levels</span>
+                                <span class="class-duration"><i class="far fa-clock"></i> 60 mins</span>
+                            </div>
+                        </div>
+                        <div class="class-content">
+                            <h5 class="class-title">Yoga Flow</h5>
+                            <p class="class-description">Find inner peace and improve flexibility with our dynamic yoga flow classes.</p>
+                            <div class="class-details">
+                                <span><i class="fas fa-user-friends"></i> Max 20 people</span>
+                                <span><i class="fas fa-fire"></i> 300 calories</span>
+                            </div>
+                            <button class="btn btn-primary mt-3" onclick="showClassDetails('Yoga Flow')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="strength">
+                    <div class="class-card">
+                        <div class="class-image">
+                            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="CrossFit">
+                            <div class="class-overlay">
+                                <span class="class-level">Intermediate</span>
+                                <span class="class-duration"><i class="far fa-clock"></i> 45 mins</span>
+                            </div>
+                        </div>
+                        <div class="class-content">
+                            <h5 class="class-title">CrossFit</h5>
+                            <p class="class-description">High-intensity functional training to build strength and endurance.</p>
+                            <div class="class-details">
+                                <span><i class="fas fa-user-friends"></i> Max 15 people</span>
+                                <span><i class="fas fa-fire"></i> 600 calories</span>
+                            </div>
+                            <button class="btn btn-primary mt-3" onclick="showClassDetails('CrossFit')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="cardio">
+                    <div class="class-card">
+                        <div class="class-image">
+                            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Spinning">
+                            <div class="class-overlay">
+                                <span class="class-level">All Levels</span>
+                                <span class="class-duration"><i class="far fa-clock"></i> 45 mins</span>
+                            </div>
+                        </div>
+                        <div class="class-content">
+                            <h5 class="class-title">Spinning</h5>
+                            <p class="class-description">High-energy indoor cycling class with great music and motivation.</p>
+                            <div class="class-details">
+                                <span><i class="fas fa-user-friends"></i> Max 25 people</span>
+                                <span><i class="fas fa-fire"></i> 500 calories</span>
+                            </div>
+                            <button class="btn btn-primary mt-3" onclick="showClassDetails('Spinning')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="strength">
+                    <div class="class-card">
+                        <div class="class-image">
+                            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Body Pump">
+                            <div class="class-overlay">
+                                <span class="class-level">All Levels</span>
+                                <span class="class-duration"><i class="far fa-clock"></i> 55 mins</span>
+                            </div>
+                        </div>
+                        <div class="class-content">
+                            <h5 class="class-title">Body Pump</h5>
+                            <p class="class-description">Total body workout using light to moderate weights with lots of repetition.</p>
+                            <div class="class-details">
+                                <span><i class="fas fa-user-friends"></i> Max 20 people</span>
+                                <span><i class="fas fa-fire"></i> 450 calories</span>
+                            </div>
+                            <button class="btn btn-primary mt-3" onclick="showClassDetails('Body Pump')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="mind-body">
+                    <div class="class-card">
+                        <div class="class-image">
+                            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Pilates">
+                            <div class="class-overlay">
+                                <span class="class-level">All Levels</span>
+                                <span class="class-duration"><i class="far fa-clock"></i> 50 mins</span>
+                            </div>
+                        </div>
+                        <div class="class-content">
+                            <h5 class="class-title">Pilates</h5>
+                            <p class="class-description">Core-strengthening exercises that improve flexibility and posture.</p>
+                            <div class="class-details">
+                                <span><i class="fas fa-user-friends"></i> Max 15 people</span>
+                                <span><i class="fas fa-fire"></i> 250 calories</span>
+                            </div>
+                            <button class="btn btn-primary mt-3" onclick="showClassDetails('Pilates')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="cardio">
+                    <div class="class-card">
+                        <div class="class-image">
+                            <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Zumba">
+                            <div class="class-overlay">
+                                <span class="class-level">All Levels</span>
+                                <span class="class-duration"><i class="far fa-clock"></i> 60 mins</span>
+                            </div>
+                        </div>
+                        <div class="class-content">
+                            <h5 class="class-title">Zumba</h5>
+                            <p class="class-description">Dance-based cardio workout that's fun, energetic, and totally addictive.</p>
+                            <div class="class-details">
+                                <span><i class="fas fa-user-friends"></i> Max 30 people</span>
+                                <span><i class="fas fa-fire"></i> 400 calories</span>
+                            </div>
+                            <button class="btn btn-primary mt-3" onclick="showClassDetails('Zumba')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Schedule Section -->
+    <section id="schedule" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Class Schedule</h2>
+            <div class="schedule-wrapper">
+                <div class="schedule-nav">
+                    <button class="btn btn-outline-primary active" data-day="monday">Monday</button>
+                    <button class="btn btn-outline-primary" data-day="tuesday">Tuesday</button>
+                    <button class="btn btn-outline-primary" data-day="wednesday">Wednesday</button>
+                    <button class="btn btn-outline-primary" data-day="thursday">Thursday</button>
+                    <button class="btn btn-outline-primary" data-day="friday">Friday</button>
+                    <button class="btn btn-outline-primary" data-day="saturday">Saturday</button>
+                    <button class="btn btn-outline-primary" data-day="sunday">Sunday</button>
+                </div>
+                <div class="schedule-content">
+                    <div class="schedule-day active" id="monday">
+                        <div class="schedule-item">
+                            <span class="time">06:00 - 07:00</span>
+                            <span class="class">Morning Yoga</span>
+                            <span class="trainer">Jane Smith</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">09:00 - 10:30</span>
+                            <span class="class">CrossFit</span>
+                            <span class="trainer">Mike Johnson</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">18:00 - 19:00</span>
+                            <span class="class">HIIT</span>
+                            <span class="trainer">John Doe</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="schedule-day" id="tuesday">
+                        <div class="schedule-item">
+                            <span class="time">07:00 - 08:00</span>
+                            <span class="class">Power Yoga</span>
+                            <span class="trainer">Jane Smith</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">10:00 - 11:30</span>
+                            <span class="class">Strength Training</span>
+                            <span class="trainer">John Doe</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">17:00 - 18:00</span>
+                            <span class="class">Spinning</span>
+                            <span class="trainer">Mike Johnson</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+
+                    <div class="schedule-day" id="wednesday">
+                        <div class="schedule-item">
+                            <span class="time">06:30 - 07:30</span>
+                            <span class="class">HIIT</span>
+                            <span class="trainer">John Doe</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">09:30 - 10:30</span>
+                            <span class="class">Pilates</span>
+                            <span class="trainer">Jane Smith</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">18:30 - 19:30</span>
+                            <span class="class">CrossFit</span>
+                            <span class="trainer">Mike Johnson</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+
+                    <div class="schedule-day" id="thursday">
+                        <div class="schedule-item">
+                            <span class="time">07:00 - 08:00</span>
+                            <span class="class">Morning Yoga</span>
+                            <span class="trainer">Jane Smith</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">11:00 - 12:00</span>
+                            <span class="class">Boxing</span>
+                            <span class="trainer">Mike Johnson</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">19:00 - 20:00</span>
+                            <span class="class">Zumba</span>
+                            <span class="trainer">Sarah Lee</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+
+                    <div class="schedule-day" id="friday">
+                        <div class="schedule-item">
+                            <span class="time">06:00 - 07:00</span>
+                            <span class="class">CrossFit</span>
+                            <span class="trainer">Mike Johnson</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">10:00 - 11:00</span>
+                            <span class="class">Strength Training</span>
+                            <span class="trainer">John Doe</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">17:30 - 18:30</span>
+                            <span class="class">HIIT</span>
+                            <span class="trainer">Sarah Lee</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+
+                    <div class="schedule-day" id="saturday">
+                        <div class="schedule-item">
+                            <span class="time">08:00 - 09:00</span>
+                            <span class="class">Weekend Yoga</span>
+                            <span class="trainer">Jane Smith</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">10:00 - 11:30</span>
+                            <span class="class">CrossFit</span>
+                            <span class="trainer">Mike Johnson</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">14:00 - 15:00</span>
+                            <span class="class">Cardio Dance</span>
+                            <span class="trainer">Sarah Lee</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+
+                    <div class="schedule-day" id="sunday">
+                        <div class="schedule-item">
+                            <span class="time">09:00 - 10:00</span>
+                            <span class="class">Meditation Yoga</span>
+                            <span class="trainer">Jane Smith</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">11:00 - 12:00</span>
+                            <span class="class">Body Pump</span>
+                            <span class="trainer">John Doe</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">15:00 - 16:00</span>
+                            <span class="class">Pilates</span>
+                            <span class="trainer">Sarah Lee</span>
+                            <button class="btn btn-sm btn-primary book-btn">Book Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Add similar schedule-day divs for other days -->
+                </div>
+                
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Members Say</h2>
+            
+            <!-- Testimonial Stats -->
+            <div class="testimonial-stats text-center mb-5">
+                <div class="row">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-box">
+                            <div class="stat-number">4.9</div>
+                            <div class="stat-text">Average Rating</div>
+                            <div class="stat-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-box">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-text">Reviews</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-box">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-text">Satisfaction Rate</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stat-box">
+                            <div class="stat-number">85%</div>
+                            <div class="stat-text">Goal Achievement</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Filters -->
+            <div class="testimonial-filters text-center mb-4">
+                <button class="btn btn-outline-primary active" data-filter="all">All Reviews</button>
+                <button class="btn btn-outline-primary" data-filter="fitness">Fitness</button>
+                <button class="btn btn-outline-primary" data-filter="classes">Classes</button>
+                <button class="btn btn-outline-primary" data-filter="trainers">Trainers</button>
+                <button class="btn btn-outline-primary" data-filter="facilities">Facilities</button>
+            </div>
+
+            <!-- Featured Testimonial -->
+            <div class="featured-testimonial mb-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="featured-member-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Success Story" class="img-fluid rounded">
+                            <div class="transformation-label">6 Months Transformation</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="featured-testimonial-content">
+                            <div class="testimonial-badge">Featured Story</div>
+                            <div class="rating mb-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <blockquote>
+                                "FitLife Gym completely transformed my life. I lost 30 pounds and gained confidence. The trainers are exceptional and the community is so supportive!"
+                            </blockquote>
+                            <div class="testimonial-author">
+                                <img src="https://via.placeholder.com/100x100" alt="Sarah M." class="rounded-circle">
+                                <div class="author-info">
+                                    <h5>Sarah M.</h5>
+                                    <p>Member since 2022</p>
+                                    <div class="achievement-badges">
+                                        <span class="badge bg-success">30 lbs Lost</span>
+                                        <span class="badge bg-primary">Marathon Finisher</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="row testimonials-grid">
+                <div class="col-lg-4 col-md-6 mb-4" data-category="fitness trainers">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-author">
+                                <img src="https://via.placeholder.com/100x100" alt="John D." class="rounded-circle">
+                                <div class="author-info">
+                                    <h5>John D.</h5>
+                                    <p>Member since 2023</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="rating-date">2 weeks ago</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"The personal training program here is outstanding. My trainer really understands my goals and pushes me to achieve them."</p>
+                        </div>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-tags">
+                                <span class="tag">Personal Training</span>
+                                <span class="tag">Strength</span>
+                            </div>
+                            <button class="btn btn-sm btn-outline-primary" onclick="showFullTestimonial(this)">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonial cards -->
+            </div>
+
+            <!-- Review CTA -->
+            <div class="review-cta text-center mt-5">
+                <h4>Share Your Story</h4>
+                <p>Help others by sharing your fitness journey experience</p>
+                <button class="btn btn-primary" onclick="openReviewModal()">
+                    <i class="fas fa-pen me-2"></i>Write a Review
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review Modal -->
+    <div class="modal fade" id="reviewModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Share Your Experience</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="reviewForm">
+                        <div class="mb-3">
+                            <label class="form-label">Your Rating</label>
+                            <div class="rating-input">
+                                <i class="far fa-star" data-rating="1"></i>
+                                <i class="far fa-star" data-rating="2"></i>
+                                <i class="far fa-star" data-rating="3"></i>
+                                <i class="far fa-star" data-rating="4"></i>
+                                <i class="far fa-star" data-rating="5"></i>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Category</label>
+                            <select class="form-select" required>
+                                <option value="">Select category</option>
+                                <option value="fitness">Fitness</option>
+                                <option value="classes">Classes</option>
+                                <option value="trainers">Trainers</option>
+                                <option value="facilities">Facilities</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Your Review</label>
+                            <textarea class="form-control" rows="4" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Add Photos (optional)</label>
+                            <input type="file" class="form-control" accept="image/*" multiple>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="submitReview()">Submit Review</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Membership Plans</h2>
+            
+            <!-- Pricing Toggle -->
+            <div class="pricing-toggle text-center mb-5">
+                <span class="me-3">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="pricingToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="ms-3">Annual <span class="badge bg-danger">Save 20%</span></span>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="pricing-card">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Basic</h3>
+                            <div class="price">
+                                <div class="monthly-price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">29</span>
+                                    <span class="period">/month</span>
+                                </div>
+                                <div class="annual-price" style="display: none;">
+                                    <span class="currency">$</span>
+                                    <span class="amount">278</span>
+                                    <span class="period">/year</span>
+                                    <div class="savings">Save $70</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Access to Gym Floor</li>
+                                <li><i class="fas fa-check"></i> Basic Equipment Usage</li>
+                                <li><i class="fas fa-check"></i> Locker Room Access</li>
+                                <li><i class="fas fa-check"></i> Fitness Assessment</li>
+                                <li><i class="fas fa-times"></i> Group Classes</li>
+                                <li><i class="fas fa-times"></i> Personal Training</li>
+                                <li><i class="fas fa-times"></i> Nutrition Consultation</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline-primary btn-lg w-100">Choose Plan</a>
+                            <div class="trial-text mt-3">
+                                <small>Includes 7-day free trial</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                            <div class="price">
+                                <div class="monthly-price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">59</span>
+                                    <span class="period">/month</span>
+                                </div>
+                                <div class="annual-price" style="display: none;">
+                                    <span class="currency">$</span>
+                                    <span class="amount">566</span>
+                                    <span class="period">/year</span>
+                                    <div class="savings">Save $142</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Access to Gym Floor</li>
+                                <li><i class="fas fa-check"></i> All Equipment Access</li>
+                                <li><i class="fas fa-check"></i> Locker Room Access</li>
+                                <li><i class="fas fa-check"></i> Fitness Assessment</li>
+                                <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
+                                <li><i class="fas fa-check"></i> 1 PT Session/month</li>
+                                <li><i class="fas fa-times"></i> Nutrition Consultation</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-primary btn-lg w-100">Choose Plan</a>
+                            <div class="trial-text mt-3">
+                                <small>Includes 14-day free trial</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Elite</h3>
+                            <div class="price">
+                                <div class="monthly-price">
+                                    <span class="currency">$</span>
+                                    <span class="amount">99</span>
+                                    <span class="period">/month</span>
+                                </div>
+                                <div class="annual-price" style="display: none;">
+                                    <span class="currency">$</span>
+                                    <span class="amount">950</span>
+                                    <span class="period">/year</span>
+                                    <div class="savings">Save $238</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Access to Gym Floor</li>
+                                <li><i class="fas fa-check"></i> All Equipment Access</li>
+                                <li><i class="fas fa-check"></i> Locker Room Access</li>
+                                <li><i class="fas fa-check"></i> Fitness Assessment</li>
+                                <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
+                                <li><i class="fas fa-check"></i> 2 PT Sessions/month</li>
+                                <li><i class="fas fa-check"></i> Nutrition Consultation</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline-primary btn-lg w-100">Choose Plan</a>
+                            <div class="trial-text mt-3">
+                                <small>Includes 30-day free trial</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Benefits -->
+            <div class="additional-benefits mt-5">
+                <h3 class="text-center mb-4">All Plans Include</h3>
+                <div class="row text-center">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="benefit-item">
+                            <i class="fas fa-wifi"></i>
+                            <h5>Free Wi-Fi</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="benefit-item">
+                            <i class="fas fa-shower"></i>
+                            <h5>Shower Facilities</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="benefit-item">
+                            <i class="fas fa-parking"></i>
+                            <h5>Free Parking</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="benefit-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h5>Mobile App Access</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="pricing-faq mt-5">
+                <h3 class="text-center mb-4">Frequently Asked Questions</h3>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="pricingFAQ">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        Can I cancel my membership anytime?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#pricingFAQ">
+                                    <div class="accordion-body">
+                                        Yes, you can cancel your membership at any time. Monthly memberships require a 30-day notice, while annual memberships can be cancelled with a 60-day notice.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        What's included in the free trial?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#pricingFAQ">
+                                    <div class="accordion-body">
+                                        The free trial includes full access to all features of your chosen membership plan, allowing you to experience everything we offer before committing.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        Can I freeze my membership?
+                                    </button>
+                                </h2>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#pricingFAQ">
+                                    <div class="accordion-body">
+                                        Yes, you can freeze your membership for up to 3 months per year with a valid reason (medical, travel, etc.).
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Expert Trainers</h2>
+            
+            <!-- Trainer Categories -->
+            <div class="trainer-categories text-center mb-4">
+                <button class="btn btn-outline-primary active" data-filter="all">All Trainers</button>
+                <button class="btn btn-outline-primary" data-filter="fitness">Fitness</button>
+                <button class="btn btn-outline-primary" data-filter="yoga">Yoga</button>
+                <button class="btn btn-outline-primary" data-filter="crossfit">CrossFit</button>
+                <button class="btn btn-outline-primary" data-filter="nutrition">Nutrition</button>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-category="fitness crossfit">
+                    <div class="trainer-card">
+                        <div class="trainer-image">
+                            <img src="https://via.placeholder.com/400x500" class="img-fluid" alt="John Doe">
+                            <div class="trainer-overlay">
+                                <div class="trainer-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer-info">
+                            <h4>John Doe</h4>
+                            <span class="trainer-title">Fitness Expert</span>
+                            <div class="trainer-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(120+ reviews)</span>
+                            </div>
+                            <div class="trainer-specialties">
+                                <span class="badge bg-primary">Weight Training</span>
+                                <span class="badge bg-primary">HIIT</span>
+                                <span class="badge bg-primary">CrossFit</span>
+                            </div>
+                            <p class="trainer-description">
+                                Certified personal trainer with 10+ years of experience in transforming lives through fitness.
+                            </p>
+                            <div class="trainer-stats">
+                                <div class="stat">
+                                    <span class="number">500+</span>
+                                    <span class="label">Clients</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="number">10+</span>
+                                    <span class="label">Years</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="number">15</span>
+                                    <span class="label">Awards</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100" onclick="showTrainerDetails('John Doe')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="yoga nutrition">
+                    <div class="trainer-card">
+                        <div class="trainer-image">
+                            <img src="https://via.placeholder.com/400x500" class="img-fluid" alt="Jane Smith">
+                            <div class="trainer-overlay">
+                                <div class="trainer-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer-info">
+                            <h4>Jane Smith</h4>
+                            <span class="trainer-title">Yoga Instructor</span>
+                            <div class="trainer-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(98+ reviews)</span>
+                            </div>
+                            <div class="trainer-specialties">
+                                <span class="badge bg-primary">Yoga</span>
+                                <span class="badge bg-primary">Meditation</span>
+                                <span class="badge bg-primary">Nutrition</span>
+                            </div>
+                            <p class="trainer-description">
+                                Experienced yoga instructor specializing in mindfulness and holistic wellness approaches.
+                            </p>
+                            <div class="trainer-stats">
+                                <div class="stat">
+                                    <span class="number">300+</span>
+                                    <span class="label">Clients</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="number">8+</span>
+                                    <span class="label">Years</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="number">12</span>
+                                    <span class="label">Awards</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100" onclick="showTrainerDetails('Jane Smith')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="crossfit fitness">
+                    <div class="trainer-card">
+                        <div class="trainer-image">
+                            <img src="https://via.placeholder.com/400x500" class="img-fluid" alt="Mike Johnson">
+                            <div class="trainer-overlay">
+                                <div class="trainer-social">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trainer-info">
+                            <h4>Mike Johnson</h4>
+                            <span class="trainer-title">CrossFit Coach</span>
+                            <div class="trainer-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(150+ reviews)</span>
+                            </div>
+                            <div class="trainer-specialties">
+                                <span class="badge bg-primary">CrossFit</span>
+                                <span class="badge bg-primary">Strength</span>
+                                <span class="badge bg-primary">Conditioning</span>
+                            </div>
+                            <p class="trainer-description">
+                                Elite CrossFit coach focused on building strength, endurance, and overall athletic performance.
+                            </p>
+                            <div class="trainer-stats">
+                                <div class="stat">
+                                    <span class="number">400+</span>
+                                    <span class="label">Clients</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="number">6+</span>
+                                    <span class="label">Years</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="number">8</span>
+                                    <span class="label">Awards</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100" onclick="showTrainerDetails('Mike Johnson')">View Profile</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer Details Modal -->
+    <div class="modal fade" id="trainerModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Trainer Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="" alt="" class="img-fluid rounded trainer-modal-img">
+                            <div class="trainer-modal-social mt-3">
+                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div id="trainerDetailsContent"></div>
+                            <div class="trainer-schedule mt-4">
+                                <h5>Available Time Slots</h5>
+                                <div class="time-slots">
+                                    <!-- Time slots will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="bookTrainer()">Book Session</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Fitness Tips & News</h2>
+            
+            <!-- Blog Categories -->
+            <div class="blog-categories text-center mb-4">
+                <button class="btn btn-outline-primary active" data-filter="all">All Posts</button>
+                <button class="btn btn-outline-primary" data-filter="fitness">Fitness Tips</button>
+                <button class="btn btn-outline-primary" data-filter="nutrition">Nutrition</button>
+                <button class="btn btn-outline-primary" data-filter="wellness">Wellness</button>
+                <button class="btn btn-outline-primary" data-filter="success">Success Stories</button>
+            </div>
+
+            <!-- Featured Post -->
+            <div class="featured-post mb-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="https://via.placeholder.com/600x400" alt="Featured Post" class="img-fluid rounded">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="featured-content p-4">
+                            <span class="badge bg-primary mb-2">Featured</span>
+                            <h3>Transform Your Body: A Complete Guide</h3>
+                            <div class="post-meta mb-3">
+                                <span><i class="far fa-calendar"></i> March 20, 2024</span>
+                                <span><i class="far fa-user"></i> By John Doe</span>
+                                <span><i class="far fa-comments"></i> 15 Comments</span>
+                            </div>
+                            <p class="lead">Discover the ultimate guide to transforming your body with our comprehensive workout and nutrition plans...</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-category="fitness">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post 1" class="img-fluid">
+                            <div class="blog-category">Fitness Tips</div>
+                            <div class="blog-actions">
+                                <button class="action-btn share-btn" onclick="sharePost('10 Essential Tips for Beginners')">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                                <button class="action-btn bookmark-btn">
+                                    <i class="far fa-bookmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> March 15, 2024</span>
+                                <span class="likes-counter">
+                                    <i class="far fa-heart"></i> 
+                                    <span class="likes-count">45</span> Likes
+                                </span>
+                                <span><i class="far fa-eye"></i> <span class="views-count">1.2K</span> Views</span>
+                            </div>
+                            <h3>10 Essential Tips for Beginners</h3>
+                            <div class="blog-excerpt">
+                                <p>Starting your fitness journey can be overwhelming. Here are our top tips to help you get started...</p>
+                                <div class="read-more-content" style="display: none;">
+                                    <p>1. Start Slowly and Build Gradually</p>
+                                    <p>2. Focus on Proper Form</p>
+                                    <p>3. Stay Hydrated</p>
+                                    <p>4. Get Enough Rest</p>
+                                    <p>5. Track Your Progress</p>
+                                </div>
+                            </div>
+                            <div class="blog-footer">
+                                <button class="btn btn-outline-primary read-more-btn">Read More</button>
+                                <div class="blog-tags">
+                                    <span class="clickable-tag" onclick="filterByTag('fitness')">#fitness</span>
+                                    <span class="clickable-tag" onclick="filterByTag('beginners')">#beginners</span>
+                                    <span class="clickable-tag" onclick="filterByTag('tips')">#tips</span>
+                                </div>
+                            </div>
+                            <div class="blog-engagement">
+                                <div class="engagement-stats">
+                                    <span class="shares-count">23 Shares</span>
+                                    <span class="comments-count">15 Comments</span>
+                                </div>
+                                <button class="btn btn-sm btn-outline-secondary" onclick="showComments(this)">
+                                    Show Comments
+                                </button>
+                            </div>
+                            <div class="comments-section" style="display: none;">
+                                <div class="comment-form mb-3">
+                                    <textarea class="form-control" placeholder="Add a comment..."></textarea>
+                                    <button class="btn btn-primary btn-sm mt-2">Post Comment</button>
+                                </div>
+                                <div class="comments-list">
+                                    <!-- Comments will be loaded dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="nutrition">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post 2" class="img-fluid">
+                            <div class="blog-category">Nutrition</div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> March 10, 2024</span>
+                                <span><i class="far fa-heart"></i> 38 Likes</span>
+                            </div>
+                            <h3>Nutrition Guide for Muscle Gain</h3>
+                            <p>Learn about the best foods and supplements to support your muscle building goals...</p>
+                            <div class="blog-footer">
+                                <a href="#" class="btn btn-outline-primary">Read More</a>
+                                <div class="blog-tags">
+                                    <span>#nutrition</span>
+                                    <span>#muscle</span>
+                                    <span>#diet</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="wellness">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Blog Post 3" class="img-fluid">
+                            <div class="blog-category">Wellness</div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> March 5, 2024</span>
+                                <span><i class="far fa-heart"></i> 52 Likes</span>
+                            </div>
+                            <h3>Benefits of Morning Workouts</h3>
+                            <p>Discover why early morning exercise could be the key to achieving your fitness goals...</p>
+                            <div class="blog-footer">
+                                <a href="#" class="btn btn-outline-primary">Read More</a>
+                                <div class="blog-tags">
+                                    <span>#morning</span>
+                                    <span>#workout</span>
+                                    <span>#routine</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="blog-newsletter mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="newsletter-box text-center">
+                            <h4>Subscribe to Our Blog</h4>
+                            <p>Get the latest fitness tips and updates delivered directly to your inbox.</p>
+                            <form class="blog-subscribe-form">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Enter your email">
+                                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Facility</h2>
+            
+            <!-- Gallery Filter -->
+            <div class="gallery-filter mb-4 text-center">
+                <button class="btn btn-outline-primary active" data-filter="all">All Areas</button>
+                <button class="btn btn-outline-primary" data-filter="gym">Gym Floor</button>
+                <button class="btn btn-outline-primary" data-filter="cardio">Cardio Zone</button>
+                <button class="btn btn-outline-primary" data-filter="studio">Studios</button>
+                <button class="btn btn-outline-primary" data-filter="amenities">Amenities</button>
+            </div>
+
+            <!-- Virtual Tour Banner -->
+            <div class="virtual-tour-banner mb-5">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h3>Take a Virtual Tour</h3>
+                        <p>Experience our world-class facility from the comfort of your home.</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#virtualTourModal">
+                            <i class="fas fa-play-circle me-2"></i>Start Tour
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-category="gym">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Weight Training Area" class="img-fluid">
+                        <div class="gallery-overlay" onclick="openGalleryModal(this)">
+                            <div class="overlay-content">
+                                <h4>Weight Training Area</h4>
+                                <p>State-of-the-art equipment for strength training</p>
+                                <span class="view-more"><i class="fas fa-expand"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-category="cardio">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Cardio Zone" class="img-fluid">
+                        <div class="gallery-overlay" onclick="openGalleryModal(this)">
+                            <div class="overlay-content">
+                                <h4>Cardio Zone</h4>
+                                <p>Latest cardio machines with entertainment systems</p>
+                                <span class="view-more"><i class="fas fa-expand"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-category="studio">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Yoga Studio" class="img-fluid">
+                        <div class="gallery-overlay" onclick="openGalleryModal(this)">
+                            <div class="overlay-content">
+                                <h4>Yoga Studio</h4>
+                                <p>Peaceful environment for mind-body wellness</p>
+                                <span class="view-more"><i class="fas fa-expand"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-category="amenities">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Locker Rooms" class="img-fluid">
+                        <div class="gallery-overlay" onclick="openGalleryModal(this)">
+                            <div class="overlay-content">
+                                <h4>Luxury Locker Rooms</h4>
+                                <p>Modern facilities with showers and saunas</p>
+                                <span class="view-more"><i class="fas fa-expand"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-category="studio">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Spinning Studio" class="img-fluid">
+                        <div class="gallery-overlay" onclick="openGalleryModal(this)">
+                            <div class="overlay-content">
+                                <h4>Spinning Studio</h4>
+                                <p>High-energy cycling space with ambient lighting</p>
+                                <span class="view-more"><i class="fas fa-expand"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-category="amenities">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Juice Bar" class="img-fluid">
+                        <div class="gallery-overlay" onclick="openGalleryModal(this)">
+                            <div class="overlay-content">
+                                <h4>Juice Bar</h4>
+                                <p>Healthy refreshments and nutritional supplements</p>
+                                <span class="view-more"><i class="fas fa-expand"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facility Features -->
+            <div class="facility-features mt-5">
+                <div class="row text-center">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-dumbbell"></i>
+                            <h5>15,000 sq ft</h5>
+                            <p>Training Space</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-parking"></i>
+                            <h5>Free Parking</h5>
+                            <p>200+ Spaces</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-wifi"></i>
+                            <h5>Free Wi-Fi</h5>
+                            <p>High-Speed Internet</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="feature-box">
+                            <i class="fas fa-clock"></i>
+                            <h5>24/7 Access</h5>
+                            <p>For Members</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="" alt="" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="gallery-modal-info">
+                                <h4 class="modal-image-title"></h4>
+                                <p class="modal-image-description"></p>
+                                <div class="facility-details mt-4">
+                                    <h5>Facility Details</h5>
+                                    <ul class="facility-features-list">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            
+            <!-- Contact Info Cards -->
+            <div class="row mb-5">
+                <div class="col-md-4 mb-4">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Visit Us</h4>
+                        <p>123 Fitness Street<br>New York, NY 10001</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-outline-primary btn-sm">Get Directions</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Call Us</h4>
+                        <p>+1 (555) 123-4567<br>Mon-Sun: 6:00 AM - 10:00 PM</p>
+                        <a href="tel:+15551234567" class="btn btn-outline-primary btn-sm">Call Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Us</h4>
+                        <p>info@fitlifegym.com<br>support@fitlifegym.com</p>
+                        <a href="mailto:info@fitlifegym.com" class="btn btn-outline-primary btn-sm">Send Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-form-wrapper">
+                        <h3 class="mb-4">Send Us a Message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="subject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="membership">Membership Inquiry</option>
+                                    <option value="training">Personal Training</option>
+                                    <option value="classes">Group Classes</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" placeholder="Your Message" style="height: 150px" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="newsletter" checked>
+                                <label class="form-check-label" for="newsletter">
+                                    Subscribe to our newsletter
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                            <div class="form-status mt-3" style="display: none;"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Map and Business Hours -->
+                <div class="col-lg-6">
+                    <div class="contact-info-wrapper">
+                        <div class="map-container mb-4">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..." 
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                        <div class="business-hours">
+                            <h3 class="mb-4">Business Hours</h3>
+                            <div class="hours-grid">
+                                <div class="day-row">
+                                    <span class="day">Monday - Friday</span>
+                                    <span class="hours">6:00 AM - 10:00 PM</span>
+                                </div>
+                                <div class="day-row">
+                                    <span class="day">Saturday</span>
+                                    <span class="hours">7:00 AM - 8:00 PM</span>
+                                </div>
+                                <div class="day-row">
+                                    <span class="day">Sunday</span>
+                                    <span class="hours">8:00 AM - 6:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="holiday-notice mt-3">
+                                <i class="fas fa-info-circle"></i>
+                                Holiday hours may vary. Please check our social media for updates.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="contact-faq mt-5">
+                <h3 class="text-center mb-4">Frequently Asked Questions</h3>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="contactFAQ">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        How can I schedule a gym tour?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#contactFAQ">
+                                    <div class="accordion-body">
+                                        You can schedule a tour by filling out our contact form, calling us directly, or stopping by during business hours. Our staff will be happy to show you around our facility.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more FAQ items as needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">About FitLife</h5>
+                    <p class="mb-4">Transform your life with FitLife Gym. We provide world-class fitness equipment, trainers, and classes to help you achieve your fitness goals.</p>
+                    <div class="social-links mb-4">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#pricing">Membership</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">Hours of Operation</h5>
+                    <ul class="hours-list">
+                        <li>
+                            <span>Monday - Friday:</span>
+                            <span>5:00 AM - 11:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Saturday:</span>
+                            <span>6:00 AM - 10:00 PM</span>
+                        </li>
+                        <li>
+                            <span>Sunday:</span>
+                            <span>7:00 AM - 9:00 PM</span>
+                        </li>
+                        <li class="holiday-notice">
+                            <small>* Holiday hours may vary</small>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            123 Fitness Street<br>
+                            New York, NY 10001
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@fitlifegym.com">info@fitlifegym.com</a>
+                        </li>
+                    </ul>
+                    <div class="newsletter mt-4">
+                        <h6>Subscribe to Our Newsletter</h6>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4 mb-4">
+
+            <div class="row footer-bottom">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; 2024 FitLife Gym. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="terms-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html> 
